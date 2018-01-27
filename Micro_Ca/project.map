@@ -1,0 +1,17 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+rx_buffer                                                         0x0160       8
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+mode                                                              R4,R5        2
+rx_wr_index                                                       R7           1
+rx_rd_index                                                       R6           1
+rx_counter                                                        R9           1
+rx_buffer_overflow                                                R2.0      1bit
